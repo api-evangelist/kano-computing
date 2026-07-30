@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/org/kano
+packages:
+  - language: javascript
+    registry: npm
+    name: "@kano/code"
+    url: https://www.npmjs.com/package/@kano/code
+    install: npm install @kano/code
+    repository: https://github.com/KanoComputing/kano-code
+    version: 3.0.1-alpha.51
+    description: Kano Code — the block/text creative-coding platform used across Kano products.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@kano/kbc-challenges"
+    url: https://www.npmjs.com/package/@kano/kbc-challenges
+    install: npm install @kano/kbc-challenges
+    repository: https://github.com/KanoComputing/kano-boilerplate-components
+    version: 2.0.108
+    description: Components for Kano app challenge packs, challenge cards and views.
+    official: true
+notes: >-
+  Kano Computing publishes its front-end tooling under the npm @kano scope; both
+  packages above resolve to repositories in the first-party KanoComputing GitHub
+  org. No first-party client library was found on PyPI, Maven Central, NuGet,
+  pkg.go.dev, RubyGems, Packagist or crates.io. The Python community-sdk and
+  kano-world-js-sdk repos exist on GitHub but are unmaintained and not published
+  to a package registry. `kano-world-sdk` on npm carries no repository metadata
+  and could not be verified first-party, so it is omitted.
